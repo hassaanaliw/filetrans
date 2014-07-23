@@ -44,7 +44,7 @@ class MyWindowClass(QtGui.QMainWindow, form_class):
             translator = goslate.Goslate()
 
             try:
-             text = translator.translate(tar,str(self.to1.text()),str(self.from1.text()))
+
              text = translator.translate(tar,str(self.to1.text()),str(self.from1.text()))
              new = open(self.fileed_2.text(),'wb')
              new.write(text.encode('utf-8'))
