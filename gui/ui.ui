@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow1</class>
+ <widget class="QMainWindow" name="MainWindow1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>176</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Lao UI</family>
+    <weight>50</weight>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>FileTrans</string>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>-1</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Lao UI</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>File:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="fileed">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>10</y>
+      <width>681</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="filebut">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>10</y>
+      <width>51</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="from1">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>60</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="statusTip">
+     <string extracomment="en"/>
+    </property>
+    <property name="text">
+     <string extracomment="from">en</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="to1">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>60</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>de</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="trans">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>110</y>
+      <width>621</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Translate!</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="fileed_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>35</y>
+      <width>681</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>24</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Lao UI</family>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>New:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="sb">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>140</y>
+      <width>791</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Status :</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
